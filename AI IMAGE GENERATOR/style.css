@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #111;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  width: 400px;
+}
+
+input {
+  width: 80%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  margin-top: 10px;
+  background: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.image-box {
+  margin-top: 20px;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+#downloadBtn {
+  background: #2196f3;
+  margin-top: 15px;
+}
